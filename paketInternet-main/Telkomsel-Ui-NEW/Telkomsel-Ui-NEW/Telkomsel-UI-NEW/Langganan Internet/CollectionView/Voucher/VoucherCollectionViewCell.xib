@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VoucherCollectionViewCell" customModule="Telkomsel_UI_NEW" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="285"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="285"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQ2-UZ-LYR">
+                        <rect key="frame" x="0.0" y="0.0" width="459" height="285"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2y-CU-oN1">
+                                <rect key="frame" x="0.0" y="0.0" width="459" height="285"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paketDouble" translatesAutoresizingMaskIntoConstraints="NO" id="Qeq-pL-jkl">
+                                <rect key="frame" x="12" y="12" width="435" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="qxs-FS-5eB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double Benefits from DOUBLE UNTUNG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eh-Zi-uch">
+                                <rect key="frame" x="12" y="235" width="435" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="x3u-sg-rah"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qeq-pL-jkl" secondAttribute="trailing" constant="12" id="2Nm-5v-u6X"/>
+                            <constraint firstItem="x2y-CU-oN1" firstAttribute="centerX" secondItem="Qeq-pL-jkl" secondAttribute="centerX" id="8Cl-R6-ZUH"/>
+                            <constraint firstItem="x2y-CU-oN1" firstAttribute="leading" secondItem="hQ2-UZ-LYR" secondAttribute="leading" id="CgX-xc-tUS"/>
+                            <constraint firstItem="x2y-CU-oN1" firstAttribute="top" secondItem="hQ2-UZ-LYR" secondAttribute="top" id="ILT-1t-awv"/>
+                            <constraint firstItem="Qeq-pL-jkl" firstAttribute="top" secondItem="hQ2-UZ-LYR" secondAttribute="top" constant="12" id="Wbh-3h-hEC"/>
+                            <constraint firstItem="7eh-Zi-uch" firstAttribute="leading" secondItem="hQ2-UZ-LYR" secondAttribute="leading" constant="12" id="dZh-Yj-hJf"/>
+                            <constraint firstAttribute="trailing" secondItem="7eh-Zi-uch" secondAttribute="trailing" constant="12" id="fos-Cx-3Wf"/>
+                            <constraint firstAttribute="trailing" secondItem="x2y-CU-oN1" secondAttribute="trailing" id="ijS-Hn-dhS"/>
+                            <constraint firstItem="x2y-CU-oN1" firstAttribute="centerY" secondItem="hQ2-UZ-LYR" secondAttribute="centerY" id="oMF-hZ-H1H"/>
+                            <constraint firstAttribute="bottom" secondItem="7eh-Zi-uch" secondAttribute="bottom" constant="8" id="s2j-BT-EnE"/>
+                            <constraint firstItem="7eh-Zi-uch" firstAttribute="top" secondItem="Qeq-pL-jkl" secondAttribute="bottom" constant="8" id="sS7-M3-3a5"/>
+                            <constraint firstItem="Qeq-pL-jkl" firstAttribute="leading" secondItem="hQ2-UZ-LYR" secondAttribute="leading" constant="12" id="xdQ-oX-ftw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="hQ2-UZ-LYR" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="9Ks-nH-Dz1"/>
+                <constraint firstItem="hQ2-UZ-LYR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RQu-cA-lz7"/>
+                <constraint firstItem="hQ2-UZ-LYR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Uld-Pg-YdT"/>
+                <constraint firstItem="hQ2-UZ-LYR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="u1l-o3-lv8"/>
+            </constraints>
+            <size key="customSize" width="459" height="285"/>
+            <connections>
+                <outlet property="descVoucher" destination="7eh-Zi-uch" id="3O5-6j-YY9"/>
+                <outlet property="voucherImage" destination="Qeq-pL-jkl" id="Cz1-1f-I90"/>
+            </connections>
+            <point key="canvasLocation" x="184.78260869565219" y="95.424107142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="paketDouble" width="248" height="112"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
